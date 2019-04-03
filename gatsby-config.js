@@ -43,7 +43,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        fonts: [],
+        fonts: [
+          {
+            family: `Roboto`,
+            subsets: [`latin-ext`],
+            variants: [`300`, `400`],
+          },
+        ],
       },
     },
     `gatsby-plugin-lodash`,
