@@ -1,0 +1,31 @@
+{
+  "name": "vidua-website",
+  "version": "0.0.1",
+  "description": "VIDUA Brand Website",
+  "homepage": "https://vidua.pl",
+  "scripts": {
+    "start": "gatsby develop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrzegorzWidla/vidua-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GrzegorzWidla/vidua-website/issues"
+  },
+  "keywords": [
+    "website",
+    "static",
+    "react",
+    "gatsby",
+    "graphql",
+    "styled-components",
+    "typescript"
+  ],
+  "author": {
+    "name": "Grzegorz Widła",
+    "email": "greg@vidua.pl",
+    "url": "https://vidua.pl"
+  },
+  "license": "MIT"
+}
