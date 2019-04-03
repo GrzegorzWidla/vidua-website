@@ -14,12 +14,13 @@ export const Container = styled.div`
   height: 100%;
   padding: 24px;
   border: 40px solid #e6e7e8;
-  background: #f8f0fa;
+  background: #f8f9fa;
   box-sizing: border-box;
 `;
 
 export const Name = styled.h1`
   color: #58595b;
+  margin: 0;
   font-size: 1.7rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -32,10 +33,11 @@ export const Contact = styled.p`
   text-transform: uppercase;
 
   & span {
-    margin: 0 10px;
+    margin: 0 12px;
   }
 
   & a {
+    color: inherit;
     text-decoration: none;
     border-bottom: 10px solid rgba(88, 89, 91, 0);
     transition: 300ms border 0ms ease-in-out;

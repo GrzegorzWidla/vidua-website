@@ -16,7 +16,7 @@ export const LandingPagePlain: React.SFC<LandingPagePlainProps> = ({
     <Name>{name}</Name>
     <Contact>
       {phone}
-      <em>&bull;</em>
+      <span>&bull;</span>
       <a href={`mailto:${email}`}>{email}</a>
     </Contact>
   </Container>
