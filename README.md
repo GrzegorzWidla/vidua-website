@@ -46,3 +46,7 @@ Feel free to clone or fork this repository. Use it to learn static websites deve
     Data can be explored using Graph*i*QL - IDE for constructing GQL queries.
     
     `http://localhost:8000/___graphql`
+
+## 🧾 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
