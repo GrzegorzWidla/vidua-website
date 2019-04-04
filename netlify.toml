@@ -1,0 +1,6 @@
+# Redirect default Netlify subdomain to primary domain
+[[redirects]]
+  from = "https://vidua.netlify.com/*"
+  to = "https://vidua.pl/:splat"
+  status = 301
+  force = true
