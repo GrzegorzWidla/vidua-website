@@ -22,3 +22,27 @@ Due to the nature of the website (portfolio, blog) and technical know-how of the
 2. Perfect, 100% performance and accessibility results from Google's Lighthouse test.
 3. Complete accessibility for users who are colorblind, legally blind or use screen reader for any other reason.
 4. Offline, cached access, service worker, ability to install as app. Website should be a full PWA.
+
+## 🚀 Getting Started
+
+Feel free to clone or fork this repository. Use it to learn static websites development, for inspiration or anything else you'd like. If you find a bug please report an issue or offer a pull request.
+
+1.  Clone the repository.
+
+    `git clone git@github.com:GrzegorzWidla/vidua-website.git directory`
+
+2.  Install dependencies.
+
+    `npm install`
+    
+3.  Run the site locally.
+
+    `npm start`
+
+4.  Open the website in web browser of your choice.
+
+    `http://localhost:8000`
+    
+    Data can be explored using Graph*i*QL - IDE for constructing GQL queries.
+    
+    `http://localhost:8000/___graphql`
